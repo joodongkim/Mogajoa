@@ -1,5 +1,28 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Create Project
+	>npx create-next-app@latest mogazoa_src --ts --eslint --app --src-dir --import-alias --use-npm –-yes
+	('src' directory: Yes)
+	(TurboPack: No)
+	(Tailwind CSS: No)
+
+## Install Dependencies
+	>npm i axios
+	>npm i @tanstack/react-query
+	>npm i @mui/icons-material @mui/material @mui/styles @emotion/styled @emotion/react
+	>npm i material-icons@latest
+	>npm i react-simple-wysiwyg
+	>npm i @uiw/react-json-view
+
+## Added Components and Api
+  1. src\api\storage
+  2. src\api\swagger
+  3. src\app\SwaggerApiTester
+  
+## Edited files
+  1. src\app\page.tsx
+  2. src\app\layout.tsx
+
 ## Getting Started
 
 First, run the development server:
